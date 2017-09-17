@@ -12,8 +12,6 @@ BuildParameters.SetParameters(context: Context,
                             repositoryOwner: "RLittlesII",
                             repositoryName: "Cake.SqlPackage",
                             appVeyorAccountName: "RLittlesII",
-                            shouldPostToGitter: false,
-                            shouldPostToSlack: false,
                             shouldRunDupFinder: false);
 
 BuildParameters.PrintParameters(Context);
